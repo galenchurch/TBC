@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (x86_64)
 --
--- Host: 192.237.246.191    Database: bndr_s000
+-- Host: 192.237.246.191    Database: bndr_s001
 -- ------------------------------------------------------
 -- Server version	5.1.69-log
 
@@ -45,7 +45,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -54,6 +54,12 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
+INSERT INTO `bom` VALUES (1,'',0,'','BeagleBoard-xM SBC',1,'','','CircuitCo','BeagleBoard-xM','Mouser','595-BEAGLEBOARD-XM','http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BeagleBoard-xM/?qs=sGAEpiMZZMsi5STK09QP%252bKiOKGrBbCoZ','','',0,0,1,'67cbc8480ac19d659d49d490208dc3002543e5df');
+INSERT INTO `bom` VALUES (2,'',0,'','TBC BASE',1,'','','','','','BASE','https://www.dropbox.com/s/vj2tyexa3n5xf6p/BASE.PDF','','',0,0,1,'c2cfec61820836c55ca920686cdc436108ad6474');
+INSERT INTO `bom` VALUES (3,'STANDOFF',0,'','Standoff Assy',4,'','','','','','','https://www.dropbox.com/s/6n92c35nsf1xhch/STANDOFF.PDF','','',0,0,1,'90457020dcd01bc29377ba271ffb0fdbf427142a');
+INSERT INTO `bom` VALUES (4,'',3,'','Standoff, Metric, ALU, Threaded 4.5 x 16mm',1,'','','McMaster-Carr','95947A128','McMaster-Carr','95947A128','http://www.mcmaster.com/#95947a128/=otktrt','','',0,0,0,'35d256f5f208062da9db35110dcb8221c8fc7be0');
+INSERT INTO `bom` VALUES (5,'',3,'','SHCS, M3, SS, 8mm',1,'','','McMaster-Carr','91292A112','McMaster-Carr','91292A112','http://www.mcmaster.com/#91292a112/=otkvh8','','',0,0,0,'ea539dfaedcf481a8f0cb07eb0f8a3807690c5a3');
+INSERT INTO `bom` VALUES (6,'',3,'','FHSC, M3, SS, 16mm',1,'','','McMaster-Carr','92125A134','McMaster-Carr','92125A134','http://www.mcmaster.com/#92125a134/=otkxol','','',0,0,0,'494911a5741740479ab95c136803e22f635dbcf4');
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -66,4 +72,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-10-18 12:11:12
+-- Dump completed on 2013-11-04 14:43:12
