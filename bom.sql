@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.69, for redhat-linux-gnu (x86_64)
 --
--- Host: 192.237.246.191    Database: bndr_s002
+-- Host: 192.237.246.191    Database: bndr_s001
 -- ------------------------------------------------------
 -- Server version	5.1.69-log
 
@@ -47,7 +47,7 @@ CREATE TABLE `bom` (
   PRIMARY KEY (`item`),
   KEY `item` (`item`),
   KEY `part` (`part`)
-) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=45 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -62,6 +62,7 @@ INSERT INTO `bom` VALUES (3,'STANDOFF',0,'','Standoff Assy',4,'','','','','','',
 INSERT INTO `bom` VALUES (4,'',3,'','Standoff, Metric, ALU, Threaded 4.5 x 16mm',1,'','','McMaster-Carr','95947A128','McMaster-Carr','95947A128','http://www.mcmaster.com/#95947a128/=otktrt','','',0,0,NULL,NULL,0,'35d256f5f208062da9db35110dcb8221c8fc7be0');
 INSERT INTO `bom` VALUES (5,'',3,'','SHCS, M3, SS, 8mm',1,'','','McMaster-Carr','91292A112','McMaster-Carr','91292A112','http://www.mcmaster.com/#91292a112/=otkvh8','','',0,0,NULL,NULL,0,'ea539dfaedcf481a8f0cb07eb0f8a3807690c5a3');
 INSERT INTO `bom` VALUES (6,'',3,'','FHSC, M3, SS, 16mm',1,'','','McMaster-Carr','92125A134','McMaster-Carr','92125A134','http://www.mcmaster.com/#92125a134/=otkxol','','',0,0,NULL,NULL,0,'494911a5741740479ab95c136803e22f635dbcf4');
+INSERT INTO `bom` VALUES (44,NULL,3,NULL,'test prt',4,'each',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `bom` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -74,4 +75,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-11-22 15:20:39
+-- Dump completed on 2013-12-03 18:19:25
