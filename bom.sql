@@ -56,7 +56,7 @@ CREATE TABLE `bom` (
 
 LOCK TABLES `bom` WRITE;
 /*!40000 ALTER TABLE `bom` DISABLE KEYS */;
-INSERT INTO `bom` VALUES (1,'',0,'','BeagleBoard-xM SBC',1,'','','CircuitCo','BeagleBoard-xM','Mouser','595-BEAGLEBOARD-XM','http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BeagleBoard-xM/?qs=sGAEpiMZZMsi5STK09QP%252bKiOKGrBbCoZ','','',0,0,NULL,NULL,1,'67cbc8480ac19d659d49d490208dc3002543e5df');
+INSERT INTO `bom` VALUES (1,'',0,'','BeagleBoard-xM SBC',1,'','','CircuitCo','BeagleBoard-xM','Mouser','595-BEAGLEBOARD-XM','http://www.mouser.com/ProductDetail/BeagleBoard-by-CircuitCo/BeagleBoard-xM/?qs=sGAEpiMZZMsi5STK09QP%252bKiOKGrBbCoZ','','',0,167.684,'prch','152.44,,,,',1,'67cbc8480ac19d659d49d490208dc3002543e5df');
 INSERT INTO `bom` VALUES (2,'',0,'','TBC BASE',1,'','','','','','BASE','https://www.dropbox.com/s/vj2tyexa3n5xf6p/BASE.PDF','','',0,0,NULL,NULL,1,'c2cfec61820836c55ca920686cdc436108ad6474');
 INSERT INTO `bom` VALUES (3,'STANDOFF',0,'','Standoff Assy',4,'','','','','','','https://www.dropbox.com/s/6n92c35nsf1xhch/STANDOFF.PDF','','',0,0,NULL,NULL,1,'90457020dcd01bc29377ba271ffb0fdbf427142a');
 INSERT INTO `bom` VALUES (4,'',3,'','Standoff, Metric, ALU, Threaded 4.5 x 16mm',1,'','','McMaster-Carr','95947A128','McMaster-Carr','95947A128','http://www.mcmaster.com/#95947a128/=otktrt','','',0,0,NULL,NULL,0,'35d256f5f208062da9db35110dcb8221c8fc7be0');
@@ -74,4 +74,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-01-02 17:41:04
+-- Dump completed on 2014-01-06 10:55:14
