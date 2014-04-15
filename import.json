@@ -1,1 +1,18 @@
-{"proj_id":"48","name":"TBC","description":"Thin Beagle Client","company":"Shift8 Manufacturing","creator":"galen","creation_date":"2013-11-04 14:42:02","last_mod":null,"mod_hash":null,"merge_hash":null,"contact":null,"quote":null,"est_type":null,"est_sub":null,"image":"http:\/\/www.mouser.com\/images\/circuitco\/lrg\/Beagle_Board-xM.jpg","link":null,"overview":"Run bndr on a Thin Client and save hardware cost"}
+{
+    "company":"Shift8 Manufacturing",
+    "contact":null,
+    "creation_date":"2013-11-04 14:42:02",
+    "creator":"galen",
+    "description":"Thin Beagle Client",
+    "est_sub":null,
+    "est_type":null,
+    "image":"http://www.mouser.com/images/circuitco/lrg/Beagle_Board-xM.jpg",
+    "last_mod":null,
+    "link":null,
+    "merge_hash":null,
+    "mod_hash":null,
+    "name":"TBC",
+    "overview":"Run bndr on a Thin Client and save hardware cost",
+    "proj_id":"98",
+    "quote":null
+}
